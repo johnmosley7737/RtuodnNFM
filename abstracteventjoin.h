@@ -7,7 +7,6 @@ namespace events::joins
 	{
 	public:
 
-		virtual ~AbstractEventJoin();
 
 		virtual bool isJoined() const = 0;
 		virtual bool join() = 0;
